@@ -20,9 +20,6 @@ Interactive business intelligence dashboard built using Streamlit and Plotly to 
 - Plotly
 - Scikit-Learn
 
-## Dashboard Preview
-
-![Dashboard](assets/dashboard1.png)
 
 ## Project Structure
 
