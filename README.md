@@ -1,22 +1,37 @@
-# 🎬 Netflix Content Sales & Customer Segmentation Dashboard
+# Netflix Content Intelligence Dashboard
 
-![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
-![Streamlit](https://img.shields.io/badge/Streamlit-1.22+-FF4B4B.svg)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-Machine%20Learning-F7931E.svg)
+## Overview
+Interactive business intelligence dashboard built using Streamlit and Plotly to analyze Netflix content trends, customer segmentation, and simulated revenue analytics.
 
-An end-to-end data science portfolio project transforming static Netflix metadata into a dynamic, simulated B2B business analytics environment.
+## Features
+- KPI Dashboard
+- Content Trend Analysis
+- Genre Distribution
+- Country-wise Analysis
+- Revenue Analytics
+- Customer Segmentation
+- Interactive Filters
 
-## 📌 Project Overview
-This project takes the public Kaggle Netflix Titles dataset and engineers a realistic business scenario. By simulating business metrics (Annual Revenue, Contract Value, Customer Count), we apply **Machine Learning (K-Means Clustering)** to identify high-value customer segments and visualize the insights in an interactive **Streamlit** dashboard.
+## Tech Stack
+- Python
+- Pandas
+- NumPy
+- Streamlit
+- Plotly
+- Scikit-Learn
 
-## 🏗️ Project Architecture
-1. **Data Prep (`src/data_prep.py`)**: Data cleaning, datetime formatting, and business logic simulation.
-2. **Modeling (`src/model.py`)**: Feature scaling and K-Means segmentation (Premium, Growth, Standard, Low Value).
-3. **Dashboard (`app.py`)**: Interactive Plotly/Streamlit UI for executive-level data exploration.
+## Dashboard Preview
 
-## 🚀 How to Run Locally
+![Dashboard](assets/dashboard1.png)
 
-1. **Clone the repository:**
-   ```bash
-   git clone <your-repo-link>
-   cd netflix-sales-dashboard
+## Project Structure
+
+data/
+src/
+app.py
+requirements.txt
+
+## Run Locally
+
+pip install -r requirements.txt
+streamlit run app.py
